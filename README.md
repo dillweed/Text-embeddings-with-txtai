@@ -16,8 +16,6 @@ python 01_write_text_samples_to_file.py
 
 <img src="assets/text_samples.png" alt="Sample text files" width="250">
 
-<br>
-
 ## 2. Generating Embeddings
 
 The script `02_generate_embeddings.py` creates an instance of the `txtai` `Embeddings` class and specifies a pre-trained model for creating embeddings. It reads the content of the text files from the `text_samples` directory and generates embeddings for each text sample. The embeddings are indexed and saved to the `embeddings_index` directory for later use.
@@ -29,8 +27,6 @@ python 02_generate_embeddings.py
 ```
 
 <img src="assets/embeddings_index.png" alt="Processed embeddings index files" width="250">
-
-<br>
 
 ## 3. Interactive Similarity Search
 
@@ -44,8 +40,6 @@ python 03_interactive_search.py
 
 <img src="assets/interactive_search.png" alt="Interactive search within console" width="550">
 
-<br>
-
 ## 4. Testing Search Queries
 
 The script `04_test_search_embeddings.py` tests various search queries by calling the `search_embeddings` function from the `search_embeddings.py` script. It demonstrates different types of search results, including cases where there is an "obvious winner" and cases where a cluster of similar results is returned.
@@ -57,8 +51,6 @@ python 04_test_search_embeddings.py
 ```
 
 <img src="assets/import_tests.png" alt="Sample text files" width="500">
-
-<br>
 
 ## Conclusion
 
