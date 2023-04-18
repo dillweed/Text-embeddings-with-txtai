@@ -1,6 +1,6 @@
 # Text Embeddings and Similarity Search
 
-Note: *This project and documentation were heavily assisted by GPT-4.*
+Note: *This project and documentation was heavily assisted by GPT-4.*
 
 This is a demonstration of embeddings with semantic similarity search on text samples. It is a simple example that utilizes the `txtai` module for creating and searching embeddings. The project consists of several Python scripts that write text samples to files, generate embeddings for the text samples, perform interactive similarity search, and test various search queries.
 
